@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    
+    height: 50px;
+    background-color: #601db3;
+}
+.home{
+    background-color: #762FCF;
+    height: 90vh;
+    display: flex;
+    justify-content:space-around; 
+    align-items: center;
+
+
+}
+.Mnome{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.589);
+}
+.Fperfil{
+    border-radius: 50%;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.178);
+}
+.Formaçao{
+    background-color: #F44926;
+    height: 100vh;
+    
+}
+.ttformaçao{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    
+   
+}
+
+.divformaçao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.iformaçao{
+    max-height: 350px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.589);
+    border-radius: 25px;
+
+}
+
+.listformaçao{
+        border-radius: 15px;
+        margin-left: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1000px;
+        height: 550px;
+        overflow-x: auto;
+
+}
+.cardformacao{
+    margin-left: 20px;
+    height: 400px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 55px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.39);
+    cursor: pointer;
+}
+
+.tformçao{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    font-size: 4vh;
+    color: #F44926;;
+    font-weight: bolder;
+    width: 300px;
+}
+.conteiner{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pformaçao{
+    
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logoescola{
+    margin-top: 30px;
+    margin-left: 50px;
+    max-width: 200px;
+    
+}
+
+
+
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #762FCF;
+    border-radius: 10px;
+    
+
+}
+::-webkit-scrollbar{
+   
+    border-radius: 10px;
+}
