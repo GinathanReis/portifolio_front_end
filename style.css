@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
 }
+
 nav{
     
     height: 50px;
@@ -21,6 +24,13 @@ nav{
     background-size:contain;
     position: relative;
     
+}
+.nome_redes{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
@@ -94,6 +104,7 @@ i{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
+
     
    
 }
@@ -110,6 +121,7 @@ i{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.589);
     border-radius: 25px;
     margin: 20px;
+    margin-top: 200px;
 }
 
 .listformaçao{
@@ -133,6 +145,7 @@ i{
     padding: 55px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.39);
     cursor: pointer;
+    
 }
 
 .tformçao{
@@ -164,13 +177,116 @@ i{
 }
 
 .projetos{
-    background-color: #762FCF;
-    height: 100vh;
+    background-image: url(imagens/wp.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:contain;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F44926;
+    flex-wrap: wrap;
     
+}
+.projetosh1{
+    color: rgb(255, 255, 255);
+    font-family: 'Russo One', sans-serif;
+    height: 100px;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.39);
+}
+.projetos p{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista_projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Dprojeto{
+    margin: 50px;
+    width: 360px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    -webkit-box-shadow: 5px 10px 73px -1px rgba(0,0,0,0.91);
+    -moz-box-shadow: 5px 10px 73px -1px rgba(0,0,0,0.91);
+    box-shadow: 5px 10px 73px -1px rgba(0,0,0,0.91);
+    }
+.imagemprojeto{
+    width: 100%;
+    border-radius: 5px;
+}
+.titulo_projeto{
+    margin-top: 20px;
+    color: #F44926;
+    font-family: 'Russo One', sans-serif;
+}
+
+.texto_tecusadas{
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+    height: 100px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #F44926;
 }
 
 
+.rodapedivprojeto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
 
+.partiçao1_projeto{
+    
+    border-radius: 10px;
+    width:100%;
+    margin: 1px;
+    
+    
+}
+.partiçao1_projeto  img{
+    height: 50px;
+    margin-right: 10px;
+    
+    
+}
+
+.bnt_projeto{
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #762FCF;
+    float:right;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.imagemprojeto{
+    position: relative; 
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.577);
+    
+    
+}
+.imagemprojeto:hover{
+    transform: scale(1.3);
+   
+    
+}
 
 
 
