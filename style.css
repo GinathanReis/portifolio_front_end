@@ -115,6 +115,7 @@ i{
     display: flex;
     flex-direction: column;
     text-align: center;
+    
 }
 
 
@@ -123,7 +124,7 @@ i{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.589);
     border-radius: 25px;
     margin: 20px;
-    margin-top: 200px;
+   
 }
 
 .listformaçao{
@@ -136,24 +137,29 @@ i{
         height: 550px;
         overflow-x: auto;
         margin: 25px;
+       
 
 }
 .cardformacao{
     margin-left: 20px;
-    height: 400px;
+    height: 300px;
+    max-width: 200px;
     background-color: #ffffff;
     margin-bottom: 15px;
     border-radius: 10px;
     padding: 55px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.39);
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    
     
 }
 
 .tformçao{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 15px;
-    font-size: 4vh;
+    font-size: 1.5em;
     color: #F44926;
     font-weight: bolder;
     width: 300px;
@@ -163,11 +169,13 @@ i{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .pformaçao{
     
-    font-size: 150%;
+    
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -183,7 +191,7 @@ i{
     background-repeat: no-repeat;
     background-position: top;
     background-size:contain;
-    padding-top: 40px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -215,6 +223,7 @@ i{
 
 .Dprojeto{
     margin: 50px;
+    width: 100%;
     max-width: 350px;
     padding: 20px;
     background-color: white;
@@ -232,10 +241,11 @@ i{
     margin-top: 20px;
     color: #F44926;
     font-family: 'Russo One', sans-serif;
+    font-size: clamp(0.5em, 1em + 1vw, 1.2em);
 }
 
 .texto_tecusadas{
-    font-size: 20px;
+    font-size: clamp(0.5em, 1em + 1vw, 1.2em);
     font-family: 'Russo One', sans-serif;
     height: 100px;
     text-transform: uppercase;
@@ -275,6 +285,7 @@ i{
     border-radius: 10px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
     
 }
 
