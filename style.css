@@ -301,6 +301,9 @@ i{
     
 }
 
+iframe{
+    width: 100%;
+}
 
 
 ::-webkit-scrollbar-thumb{
