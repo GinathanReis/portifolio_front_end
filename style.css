@@ -31,6 +31,8 @@ nav{
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    animation: bounceIn;
+    animation-duration: 2s;
 }
 
 
@@ -96,6 +98,8 @@ i{
     height: 40vw;
     max-height:300px;
     
+    
+    
 }
 .Formaçao{
     background-color: #762FCF;
@@ -152,6 +156,7 @@ i{
     cursor: pointer;
     display: flex;
     flex-direction: column;
+
     
     
 }
@@ -232,6 +237,7 @@ i{
     -webkit-box-shadow: 5px 10px 73px -1px rgba(0,0,0,0.91);
     -moz-box-shadow: 5px 10px 73px -1px rgba(0,0,0,0.91);
     box-shadow: 5px 10px 73px -1px rgba(0,0,0,0.91);
+    
     }
 .imagemprojeto{
     width: 100%;
